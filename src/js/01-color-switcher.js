@@ -3,7 +3,7 @@ const refs = {
     stop: document.querySelector("button[data-stop]"),
     body:document.querySelector("body"),
 }
-let intervalId = 0;
+let intervalId = null;
 const TIME = 1000;
 
 refs.start.addEventListener("click", startTimer);
